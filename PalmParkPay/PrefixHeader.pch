@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  PalmParkPay
+//
+//  Created by 谭其勇 on 15/12/2.
+//  Copyright © 2015年 谭其勇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PalmParkExpKit.h"
+#import "PalmParkPayKit.h"
+#endif /* PrefixHeader_pch */
