@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'SmartLookPayKit' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for SmartLookPayKit
+  
+  pod 'Alipay_SDK_iOS', '~> 15.2.0.1'
+  
+#  pod 'AliPay_SDK', '~> 3.0.0'
+
+  pod 'WeChat_SDK', '~> 1.7.5.1'
+
+end
