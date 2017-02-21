@@ -9,12 +9,14 @@
 #import "AliExpEntity.h"
 
 @implementation AliExpEntity
+
 +(AliExpEntity *)entityWithUserId:(NSString *)uid name:(NSString *)uname{
     AliExpEntity* entity = [[AliExpEntity alloc]init];
     entity.userid = uid;
     entity.username = uname;
     return entity;
 }
+
 +(AliExpEntity *)entityWithString:(NSString *)str{
     AliExpEntity* entity = [[AliExpEntity alloc]init];
     if (str) {
@@ -28,7 +30,9 @@
     }
     return entity;
 }
+
 -(NSString *)toString{
     return [NSString stringWithFormat:@"%@^%@",self.userid,self.username];
 }
+
 @end

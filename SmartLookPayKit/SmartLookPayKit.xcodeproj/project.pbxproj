@@ -901,10 +901,10 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/Alipay_SDK_iOS\"",
 					"\"${PODS_ROOT}/Headers/Public/WeChat_SDK\"",
-					"\"$(PROJECT_DIR)/SmartLookPayKit\"",
 				);
 				INFOPLIST_FILE = SmartLookPayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -932,10 +932,10 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/Alipay_SDK_iOS\"",
 					"\"${PODS_ROOT}/Headers/Public/WeChat_SDK\"",
-					"\"$(PROJECT_DIR)/SmartLookPayKit\"",
 				);
 				INFOPLIST_FILE = SmartLookPayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

@@ -116,11 +116,9 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  s.frameworks = "SystemConfiguration", "CoreGraphics","CoreTelephony"
-  # s.frameworks = "CoreTelephony", "CoreGraphics","SystemConfiguration","libcrypto.a","AlipaySDK","libWeChatSDK.a","libssl.a"
-  # 
-  # s.libraries = "z.1.2.5", "sqlite3.0"
+  s.frameworks = "CoreTelephony", "CoreGraphics","SystemConfiguration"
+
+  s.libraries = "z.1.2.5", "sqlite3.0","crypto","WeChatSDK","ssl"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
